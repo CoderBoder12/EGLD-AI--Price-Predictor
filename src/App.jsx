@@ -163,15 +163,7 @@ function App() {
         (+{predictedPercent ? predictedPercent.toFixed(2) : "--"}%)
       </div>
       <div style={{ marginTop: "1.2rem", color: "#b2fefa", fontSize: "1rem", fontStyle: "italic" }}>
-        AI generated price based on current market volumes and BTC price
-      </div>
-      <div style={{
-        marginTop: "1.5rem",
-        color: "#ffd600",
-        fontWeight: 700,
-        fontSize: "1.1rem"
-      }}>
-        Like the prediction? Donate VIBE to the author!
+        Optimist AI prediction. If you like it, you can donate some VIBE!
       </div>
       <button
         onClick={handleReselect}
